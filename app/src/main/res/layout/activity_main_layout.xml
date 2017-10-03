@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.n3.layout_ex.Main_layoutActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#1E90FF"
+        android:padding="15dp"
+        android:text="TEXT" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+
+            <TextView
+
+                android:background="#BC8F8F"
+                android:gravity="center"
+                android:padding="18dp"
+                android:text="TEXT1" />
+
+            <EditText
+                android:background="#006400"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="EDIT" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:background="#BC8F8F"
+                android:gravity="center"
+                android:padding="18dp"
+                android:text="TEXT2" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:background="#7FFFD4"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="EDIT1" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/textView1"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_span="2"
+                android:padding="15dp"
+                android:background="#FF0000"
+
+                android:text="BOTÃO" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

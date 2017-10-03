@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#BC8F8F"
+            android:gravity="center"
+            android:text="TEXT"
+            android:layout_span="2"
+
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+
+            android:background="#BC8F8F"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="TEXT" />
+
+        <EditText
+            android:background="#006400"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="EDIT" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+
+            android:background="#BC8F8F"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="TEXT" />
+
+        <EditText
+            android:background="#006400"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="EDIT" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#BC8F8F"
+            android:gravity="center"
+            android:text="TEXT"
+            android:layout_span="2"
+            />
+
+    </TableRow>
+
+</TableLayout>
